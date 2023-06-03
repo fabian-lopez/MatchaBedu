@@ -1,0 +1,98 @@
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: #025157;
+  text-align: center;
+  /* font-family: "Alegreya", serif; */
+  font-size: 50px;
+  margin-bottom: 24px;
+  /* font-weight: 500; */
+}
+
+button {
+  color: #fff;
+  background-color: #025157;
+}
+
+.subtitulo {
+  color: #46484c;
+}
+
+p {
+  color: #8b8b8bcc;
+  font-family: Verdana;
+  font-size: 20px;
+  ;
+}
+
+.header {
+  color: #fff;
+  margin: 10px 20px 0px 10px;
+  /*top, right, bottom, left*/
+  /* background-color: red; */
+  
+}
+
+.header > * {
+  /*se van a aplicar directamente a los hijos*/
+  display: inline-block;
+  font-size: 16px;
+  line-height: 45px;
+  vertical-align: middle;
+  height: 100%;
+}
+
+
+.menuList > * {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
+li {
+  display: inline;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  width: 15%;
+}
+
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.action {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: right;
+  /* background-color: aqua; */
+}
+
+main {
+  margin-top: 285px;
+  text-align: center;
+  display: block;
+}
+
+
+.botonesAaccio {
+  color: #fff;
+  background-color: #67B54B;
+}
+
+.botonLink {
+  color: #67B54B;
+}
