@@ -82,23 +82,24 @@ p {
 }
 
 .navbar {
-  width: 60%;
+  width: 100%;
   text-align: center;
   color: #025157;
   font-weight: 500;
+  background-color: #fffbf7;
 }
 
-.action {
+
+.actions {
   width: 15%;
   text-align: right;
   font-size: 14px;
   font-weight: 600;
-  vertical-align: right;
   /* background-color: aqua; */
 }
 
 
-.action > a {
+.actions > a {
   text-decoration: none;
   text-decoration-line: none;
   color: #67b54b;
@@ -214,7 +215,46 @@ h1 {
 
 
 
+.success-stories {
+  background-color: #a1d683;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.success-stories .overview {
+  flex: 2;
+  padding-right: 100px;
+}
+
+.success-stories .overview h2 {
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+
+.success-stories .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.success-stories .overview button {
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.success-stories .overview img {
+  width: 500px;
+  max-width: 100%;
+}
 
 
 
@@ -222,6 +262,13 @@ h1 {
 
 } */
 
+@media (max-width: 991px){
+  .actions
+  .navbar {
+    width: 60%;
+    text-align: center;
+  } 
+}
 
 @media (max-width: 575px){
   /* body {
@@ -231,6 +278,12 @@ h1 {
   .fixed-header {
     display: none;
   }
+
+  .actions
+  .navbar {
+    width: 60%;
+    text-align: center;
+  } 
 
   .main {
     margin-top: 130px;
