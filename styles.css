@@ -123,7 +123,7 @@ h1 {
   color: #025157;
   text-align: center;
   font-family: "Alegreya", serif;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 24px;
   /* font-weight: 500; */
 }
@@ -186,10 +186,15 @@ h1 {
 /* CARACTERITICAS */
 
 .features {
-  display: grid;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  background-color: #025157;
+  padding: 5% 10%;
+
+  /* display: grid;
   background-color: #025157;
   grid-template-columns: repeat(2, 300px);
-  grid-template-rows: repeat(2, 330px);
+  grid-template-rows: repeat(2, 330px); */
+
   /*
     maximo de 11 columnas
     shortcuts: 
@@ -209,6 +214,66 @@ h1 {
 
 
 
+
+
+
+
+/* @media (breakpoint){
+
+} */
+
+
+@media (max-width: 575px){
+  /* body {
+    Background-color: gray ;
+  } */
+
+  .fixed-header {
+    display: none;
+  }
+
+  .main {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .main > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 32px; /*separacion del titulo*/
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+
+
+
+}
 
 
 
