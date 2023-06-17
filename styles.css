@@ -4,14 +4,12 @@ body {
   padding: 0px;
 }
 
-h1 {
-  color: #025157;
-  text-align: center;
-  /* font-family: "Alegreya", serif; */
-  font-size: 50px;
-  margin-bottom: 24px;
-  /* font-weight: 500; */
-}
+
+
+
+
+
+
 
 button {
   color: #fff;
@@ -26,7 +24,18 @@ p {
   color: #8b8b8bcc;
   font-family: Verdana;
   font-size: 20px;
-  ;
+  
+}
+
+
+.fixed-header {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  /*posiciones: arriba, abajo,izq,der*/
+  width: 100%;
+  background-color: #fffbf7;
 }
 
 .header {
@@ -53,8 +62,15 @@ p {
 }
 
 
-li {
+.menuList > li > a {
   display: inline;
+  text-decoration-line: none;
+  color: #025157;
+  font-size:1.3em;
+}
+
+.menuList li > a:visited{
+  text-decoration-color: none;
 }
 
 .logo {
@@ -81,16 +97,127 @@ li {
   /* background-color: aqua; */
 }
 
-main {
-  margin-top: 285px;
-  text-align: center;
-  display: block;
+
+.action > a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #67b54b;
+  font-size:1.35em;
 }
 
 
+
+
+
+.main {
+  /*display: flex;*/
+  margin-top: 300px;
+  width: 60%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+
+
+h1 {
+  color: #025157;
+  text-align: center;
+  font-family: "Alegreya", serif;
+  font-size: 50px;
+  margin-bottom: 24px;
+  /* font-weight: 500; */
+}
+
+
+
+/* PUBLICIDAD */
+
+.promo {
+  display: flex;
+  width: 60%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.promo .explanatory-video {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.explanatory-video img {
+  width: 30px;
+  margin-top: 10px;
+}
+
+
+.publish {
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+}
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publish > form {
+  display: flex;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+
+
+
+/* CARACTERITICAS */
+
+.features {
+  display: grid;
+  background-color: #025157;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 330px);
+  /*
+    maximo de 11 columnas
+    shortcuts: 
+    indicar cuantas columnas y su tamano
+    grid-template-columns: repeat(2, 300px);
+  */
+
+}
+
+
+.features > article {
+  width: 450px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: salmon;  
+}
+
+
+
+
+
+
+
+/*esto es mio*/
 .botonesAaccio {
   color: #fff;
   background-color: #67B54B;
+  font-size: 1.3em;
 }
 
 .botonLink {
