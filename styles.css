@@ -339,7 +339,7 @@ h1 {
   .promo {
     flex-direction: column;
     max-width: 90%;
-  
+  }
 
   .explanatory-video > video {
     width: 100%;
