@@ -1,0 +1,21 @@
+@use './global' as *;
+
+.features {
+    display: grid;
+    background-color: $color-titulos;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 330px);
+    /*
+      maximo de 11 columnas
+      shortcuts: 
+      indicar cuantas columnas y su tamano
+      grid-template-columns: repeat(2, 300px);
+    */
+    article {
+        width: 450px;
+        height: 300px;
+        border-radius: 12px;
+        background-color: salmon;  
+      }
+      
+  }

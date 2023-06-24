@@ -1,0 +1,41 @@
+:root{
+    font-size: 10px;
+}
+
+/*Colores*/
+$bg-color: #fffbf7;
+$color-primary: #ffffff;
+$color-titulos: #025157;
+$color-subtitulos: #46484c;
+$color-parrafos: #8b8b8bcc;
+$color-botones-matcha: #67B54B;
+
+$dark-green-tittle: #025157;
+$dark-green-text: #135359;
+$white:$color-primary;
+$gray:#4a4a4a;
+$light-gray:#979797;
+$light-green:#67b54b;
+
+$link-color: #025157;
+
+$font-size-main: 2rem;
+$font-size-subtitulo: 1.5rem;
+
+$margen-cards: 1em;
+
+/**Fuentes**/
+$font-title: "Alegreya", serif;
+
+/**Placeholders**/
+/*variables complejas*/
+%base-title{
+    font-family: $font-title;
+    color: $color-titulos;
+}
+
+body {
+    background-color: $bg-color;
+    margin: 0px;
+    padding: 0px;
+  }

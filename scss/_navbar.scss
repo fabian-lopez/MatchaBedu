@@ -1,0 +1,92 @@
+
+@use './global' as *;
+
+.fixed-header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    /*posiciones: arriba, abajo,izq,der*/
+    width: 100%;
+    background-color: $bg-color;
+  }
+  
+  .header {
+    color: $bg-color;
+    margin: 10px 20px 0px 10px;
+    /*top, right, bottom, left*/
+    /* background-color: red; */
+    
+  }
+  
+  .header { 
+    * {
+        /*se van a aplicar directamente a los hijos*/
+        display: inline-block;
+        font-size: 1.6rem;
+        line-height: 4.5rem;
+        vertical-align: middle;
+        height: 100%;
+    }
+}
+  
+  
+  .menuList > * {
+    display: inline-block;
+    padding-right: 1rem;
+  }
+  
+  
+  .menuList > li > a {
+    display: inline;
+    text-decoration-line: none;
+    color: $color-titulos;
+    font-size:1.3em;
+  }
+  
+  .menuList li > a:visited{
+    text-decoration-color: none;
+  }
+  
+  .logo {
+    width: 15%;
+  }
+  
+  .logo > img {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 60%;
+    text-align: center;
+    color: $color-titulos;
+    font-weight: 500;
+  }
+
+
+  .action {
+    margin-right: 2rem;
+    width: 15%;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 600;
+    vertical-align: right;
+    /* background-color: aqua; */
+
+    a {
+        text-decoration: none;
+        text-decoration-line: none;
+        color: $light-green;
+        font-size:1.35em;
+    }
+  }
+
+
+
+
+
+a {
+    text-decoration: $link-decoration;
+    text-decoration-line: $link-decoration;
+    font-size: $link-color;
+}

@@ -1,0 +1,361 @@
+:root {
+  font-size: 10px;
+}
+
+/*Colores*/
+/**Fuentes**/
+/**Placeholders**/
+/*variables complejas*/
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.subtitulo {
+  color: #46484c;
+}
+
+h1 {
+  color: #025157;
+  font-size: #ffffff;
+  font-family: "Alegreya", serif;
+  font-size: 5rem;
+  margin-bottom: 2.4rem;
+}
+
+button {
+  Background-color: #025157;
+  Color: #ffffff;
+  Padding: 10px 20px;
+  Border-radius: 4px;
+}
+
+.home div {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.home div img {
+  width: 60%;
+  justify-content: center;
+}
+
+.main {
+  /*display: flex;*/
+  margin-top: 300px;
+  width: 60%;
+  margin: 100px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main img {
+  width: 100%;
+}
+
+:root {
+  font-size: 10px;
+}
+
+/*Colores*/
+/**Fuentes**/
+/**Placeholders**/
+/*variables complejas*/
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*posiciones: arriba, abajo,izq,der*/
+  width: 100%;
+  background-color: #fffbf7;
+}
+
+.header {
+  color: #fffbf7;
+  margin: 10px 20px 0px 10px;
+  /*top, right, bottom, left*/
+  /* background-color: red; */
+}
+
+.header * {
+  /*se van a aplicar directamente a los hijos*/
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 4.5rem;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.menuList > * {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.menuList > li > a {
+  display: inline;
+  text-decoration-line: none;
+  color: #025157;
+  font-size: 1.3em;
+}
+
+.menuList li > a:visited {
+  text-decoration-color: none;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  width: 15%;
+}
+
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.action {
+  margin-right: 2rem;
+  width: 15%;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 600;
+  vertical-align: right;
+  /* background-color: aqua; */
+}
+.action a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #67b54b;
+  font-size: 1.35em;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-size: #025157;
+}
+
+:root {
+  font-size: 10px;
+}
+
+/*Colores*/
+/**Fuentes**/
+/**Placeholders**/
+/*variables complejas*/
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blog {
+  background-color: #ffffff;
+  /*es un width pero con -max: debe tener un minimo de ancho
+  donde no puede revasar ese ancho.
+  Unset: debe utilizar el rango del navegador*/
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog .process-list {
+  margin-top: 4rem;
+  margin-bottom: 3.6rem;
+}
+.blog .process-list .process {
+  margin-bottom: 2.5rem;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #025157;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+
+button {
+  height: auto;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  width: 18rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-primary {
+  Background-color: #007bff;
+  Color: #fff;
+  Padding: 10px 20px;
+  Border-radius: 4px;
+}
+
+.button-secondary {
+  Background-color: #0f000f;
+  Color: #ccc;
+  Padding: 10px 20px;
+  Border-radius: 4px;
+}
+
+.button-primary:hover {
+  Background-color: #fff;
+  Color: #007bff;
+  Padding: 10px 20px;
+  Border-radius: 4px;
+  box-shadow: 5px 10px #888888;
+}
+
+.button-secondary:hover {
+  Background-color: #ccc;
+  Color: #0f000f;
+  Padding: 10px 20px;
+  Border-radius: 4px;
+  box-shadow: 5px 10px #888888;
+}
+
+.home article {
+  margin: 20px;
+}
+.home button {
+  margin: 30px;
+}
+
+:root {
+  font-size: 10px;
+}
+
+/*Colores*/
+/**Fuentes**/
+/**Placeholders**/
+/*variables complejas*/
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.promo {
+  display: flex;
+  width: 60%;
+  margin: 100px auto;
+  align-items: center;
+}
+.promo .explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 30px;
+  margin-top: 10px;
+}
+
+.publish {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+.publish p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.publish form {
+  display: flex;
+}
+.publish form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+:root {
+  font-size: 10px;
+}
+
+/*Colores*/
+/**Fuentes**/
+/**Placeholders**/
+/*variables complejas*/
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.features {
+  display: grid;
+  background-color: #025157;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 330px);
+  /*
+    maximo de 11 columnas
+    shortcuts: 
+    indicar cuantas columnas y su tamano
+    grid-template-columns: repeat(2, 300px);
+  */
+}
+.features article {
+  width: 450px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: salmon;
+}
+
+/*# sourceMappingURL=main.css.map */

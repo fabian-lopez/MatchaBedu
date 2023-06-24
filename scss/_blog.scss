@@ -1,0 +1,61 @@
+@use './global' as *;
+
+.blog {
+    background-color: $color-primary;
+    /*es un width pero con -max: debe tener un minimo de ancho
+    donde no puede revasar ese ancho.
+    Unset: debe utilizar el rango del navegador*/
+    max-width: unset; 
+    padding: 5% 10%;
+
+    .title {
+        @extend %base-title;
+    }
+
+    .process-list {
+        margin-top: 4rem;
+        margin-bottom: 3.6rem;
+
+        .process {
+            margin-bottom: 2.5rem;
+
+            & > div {
+
+                & > h3 {
+                    color: $color-titulos;
+                    margin-bottom: 0;
+                    font-size: 3rem;
+                    font-weight: 500;
+                }
+
+                & > p {
+                    color: $color-titulos;
+                    margin: 0;
+                }
+
+            }
+
+            .process-icon {
+                width: 6rem;
+                height: 6rem;
+                margin-right: 1rem;
+                text-align: center;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+
+
+        }
+    }
+}
+
+button {
+    height: auto;
+    border-radius: .8rem;
+    padding:1.2rem;
+    width: 18rem;
+    margin-bottom: 1.5rem;
+}

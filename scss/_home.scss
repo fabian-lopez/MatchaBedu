@@ -1,0 +1,75 @@
+
+@use './global' as *;
+
+
+$link-decoration: none;
+
+
+
+  .subtitulo {
+    color: $color-subtitulos;
+  }
+  
+
+h1 {
+    color: $color-titulos;
+    font-size: $color-primary;
+    font-family: "Alegreya", serif;
+    font-size: 5rem;
+    margin-bottom: 2.4rem;
+}
+
+@mixin botonesOscuros(){
+    Background-color: $color-titulos;
+    Color: $color-primary;
+    Padding: 10px 20px;
+    Border-radius: 4px;
+}
+
+button {
+  @include botonesOscuros();
+}
+  
+
+
+// p {
+//     color: $color-parrafos;
+//     font-family: Verdana;
+//     font-size: $font-size-main;
+// }
+
+
+.home {
+    div{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        img {
+            width: 60%;
+            justify-content: center;
+        }
+    }
+}
+
+
+
+
+
+
+  .main {
+    /*display: flex;*/
+    margin-top: 300px;
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+  }

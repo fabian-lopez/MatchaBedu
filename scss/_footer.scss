@@ -1,0 +1,36 @@
+@mixin button-style($bg-color, $text-color){
+    Background-color: $bg-color;
+    Color: $text-color;
+    Padding: 10px 20px;
+    Border-radius: 4px;
+}
+
+.button-primary {
+    @include button-style(#007bff, #fff);
+}
+
+.button-secondary {
+    @include button-style(#0f000f, #ccc);
+}
+
+.button-primary:hover {
+    @include button-style(#fff, #007bff);
+    box-shadow: 5px 10px #888888;
+}
+
+
+.button-secondary:hover {
+    @include button-style(#ccc, #0f000f);
+    box-shadow: 5px 10px #888888;
+}
+
+.home {
+
+    article {
+        margin: 20px;
+    }
+
+    button {
+        margin: 30px;
+    }
+}
