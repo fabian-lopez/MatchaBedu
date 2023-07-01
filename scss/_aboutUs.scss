@@ -1,0 +1,112 @@
+@use "./global" as *;
+@use "./animationArrow" as *;
+
+.navbar {
+  background-color: $bg-color;
+  text-align: center;
+  color: $dark-green-tittle;
+  font-weight: 500;
+
+  ul {
+    padding: 0;
+
+    li {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.actions {
+  text-align: right;
+  font-size: 1.4rem;
+
+  & > * {
+    margin: 0 1rem;
+  }
+
+  a {
+    color: $light-green;
+  }
+
+  button {
+    background-color: $light-green;
+    color: white;
+    padding: 1.2rem 1.4rem;
+    border: 0;
+    border-radius: 0.5rem;
+  }
+}
+
+.top-features {
+  padding: 3rem 0 6.5rem;
+  margin-top: 15rem;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 6rem;
+
+  h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+
+.feature__cont {
+  p {
+    font-size: 1.5rem;
+    color: $light-gray;
+    transition: font-size 0.3s ease-in-out;
+    //transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $gray;
+      font-size: 2rem;
+    }
+  }
+}
+
+.feature__img {
+  img {
+    width: 100%;
+  }
+}
+
+.feature__title__anchor {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 2.4rem;
+
+  .feature__title {
+    margin-top: 5rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 3.5rem;
+    text-decoration: none;
+    color: inherit;
+    text-shadow: $dark-green-text 0.1rem 0.1rem 0.2rem;
+    // color: agectara atributo color
+    //.#s los segundos de transicion
+    // ease-in-out: funcion de temporizacion (acelera,desacelera)
+    // aceleracion suave.
+    transition: color 0.3s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+  }
+
+  &:hover {
+    color: $light-green;
+    font-size: 3.5rem;
+    //transition-property
+    // transition-duration
+    // transition-timing-function
+    // transition-delay
+  }
+}

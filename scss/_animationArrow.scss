@@ -1,0 +1,57 @@
+.flecha {
+    margin: 0 auto;
+    height: 13rem;
+    width: 13rem;
+    margin-bottom: 3.5rem;
+
+    .flecha-contenedor {
+        position: relative;
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 6.5rem;
+    }
+
+    .flecha-animada {
+        position: absolute;
+        animation-name: up-and-down, alrededor;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        height: 13rem;
+        width: 13rem;
+
+        img {
+            width: 13rem;
+            transform: rotate(-90deg);
+        }
+    }
+
+    @keyframes up-and-down {
+        0% {
+            top: 0;
+          }
+    
+          25% {
+            top: -30px;
+          }
+    
+          50% {
+            top: -60px;
+          }
+    
+          75% {
+            top: -30px;
+          }
+    
+          100% {
+            top: 0;
+          }
+    }
+
+    @keyframes alrededor {
+        from {left: -270px;}
+        to {left: 270px;}
+    }
+}
+

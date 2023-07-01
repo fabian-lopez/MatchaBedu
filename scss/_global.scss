@@ -35,7 +35,8 @@ $font-title: "Alegreya", serif;
 }
 
 body {
-    background-color: $bg-color;
+    background-color: $bg-color !important;
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
   }

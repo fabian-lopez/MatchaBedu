@@ -57,7 +57,7 @@
   }
   
   .navbar {
-    width: 60%;
+    // width: 60%;
     text-align: center;
     color: $color-titulos;
     font-weight: 500;
@@ -78,6 +78,10 @@
         text-decoration-line: none;
         color: $light-green;
         font-size:1.35em;
+    }
+
+    & > button {
+        background-color: $light-gray;
     }
   }
 
